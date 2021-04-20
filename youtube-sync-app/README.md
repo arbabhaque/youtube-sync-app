@@ -17,19 +17,18 @@ How to Run
 
 1. Start the node.js app, run: (Making sure you have npm installed)
 
-'''
+```
 $ cd backend/ && npm start
-'''
+```
 
 2. Start the react app
-'''
+```
 $ cd frontend/ && npm start
-'''
+```
 
 Overview
 ------------
-`youtube-sync-app` consists of a client and a server application, which makes it possible to synchronize youtube video playback between two computers. This means that when a user pauses or plays a video, it will do the same for other viewers as well.
-The frontend is built using React.  It uses WebSockets to communicate to the backend (Node.js). Websockets allow user actions to be easily broadcast to other users. 
+`youtube-sync-app` consists of a client and a server application, which makes it possible to synchronize youtube video playback between two computers. This means that when a user pauses or plays a video, it will do the same for other viewers as well. The frontend is built using React.  It uses WebSockets to communicate to the backend (Node.js). Websockets allow user actions to be easily broadcast to other users. 
 
 Depoyment
 ------------
